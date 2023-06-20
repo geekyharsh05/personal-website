@@ -1,0 +1,59 @@
+:root {
+    --bg-color: #2a2b30;
+    --text-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "PT Mono", monospace;
+    font-size: 1.1vmax;
+}
+
+h1 {
+    color: yellow;
+}
+
+
+br {
+    margin-bottom: 0.5vmax;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 1.5vmax;
+}
+
+.object {
+    font-weight: bold;
+    color: #85b1e0;
+}
+
+.key {
+    font-weight: bold;
+    color: #8e8ecc;
+}
+
+.string {
+    font-weight: bold;
+    color: #dda2f6;
+}
+
+.list {
+    font-weight: bold;
+    color: #85b1e0;
+}
+
+.boolean {
+    font-weight: bold;
+    color: #dda2f6;
+}
+
